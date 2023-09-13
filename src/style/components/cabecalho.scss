@@ -1,0 +1,26 @@
+@import "../variaveis.scss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+header {
+    background-color: $header-bg-color;
+    width: $header-wid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: $header-border-bottom;
+
+    h2{
+        font-size: $font-size-header;
+        font-family: $font;
+    }
+
+    a{
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    .logo{
+        max-width: $logo-wid;
+        margin: $logo-margin;
+    }
+}
