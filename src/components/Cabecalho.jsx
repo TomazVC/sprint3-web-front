@@ -1,17 +1,24 @@
 import "../style/components/cabecalho.scss";
+import {Link} from 'react-router-dom'
 import AquaLogo from "../img/aquatank_logo.png";
 
 export default function Cabecalho(){
     let AquaLogoAlt = "AquaLogo";
     return(
+        <>
         <header>
-            <a href="/">
-                <img src={AquaLogo} alt={AquaLogoAlt} class="logo"/>
-            </a>
-            <h2><a href="./Produto">Produto</a></h2>
-            <h2><a href="./Contratar">Como Contratar</a></h2>
-            <h2><a href="./PeloMundo">AquaT Pelo Mundo</a></h2>
-            <h2 class="laranjinha"><a href="./Login">Login</a></h2>
+                <Link to={'/'}>
+                <img src={AquaLogo} alt={AquaLogoAlt}/>
+                </Link>
+            <nav>
+                <ul>        
+                    <li><Link to={'/Produto'}>Produto</Link></li>
+                    <li><Link to={'/Contratar'}>Como Contratar</Link></li>
+                    <li><Link to={'/PeloMundo'}>AquaT pelo mundo</Link></li>
+                    <li><Link to={'/Login'} class='laranjinha'>Login</Link></li>
+                </ul>
+            </nav>
         </header>
+        </>
     )
 }
