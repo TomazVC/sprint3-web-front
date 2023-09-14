@@ -1,0 +1,62 @@
+@import "../variaveis.scss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+main{
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    div{
+        width: 100%;
+        #title{
+            font-size: 250%;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .initial-text{
+            font-family: 'Orbitron', sans-serif;
+            margin-top: 1%;
+            font-size: 150%;
+            text-align: center;
+        }
+    
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            input{
+                padding: 0.5%;
+            }
+            button{
+                min-width: 40%;
+                padding: 1%;
+                font-size: 20px;
+                background-color: black;
+                border-radius: 15px;
+                color:#5E9186;
+                font-family: 'Orbitron', sans-serif;
+                cursor: pointer;
+            }
+        }
+        form input, textarea{
+            font-size: 20px;
+            width: 80%;
+            margin: 1% 0px 1% 0px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        #btn-compartilhar{
+            max-width: 30%;
+            padding: 1%;
+            margin: 2% 0% 1% 1%;
+            font-size: 20px;
+            // margin-left: 35%;
+            background-color: black;
+            color: #E3B663;
+            border-radius: 15px;
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+}
+    }
+}
