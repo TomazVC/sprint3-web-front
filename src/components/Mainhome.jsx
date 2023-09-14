@@ -1,6 +1,6 @@
 import "../style/components/mainhome.scss";
 
-export default function main(){
+export default function Mainhome(){
     return(
         <>
         <main>
