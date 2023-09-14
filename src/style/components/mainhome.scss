@@ -1,19 +1,19 @@
 @import "../variaveis.scss";
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 main{
     display: flex;
     // flex-wrap: wrap;
     align-items: center;
     div{
+        text-align: center;
         width: 100%;
         #title{
             font-size: 250%;
             text-align: center;
-            font-family: 'Orbitron', sans-serif;
+            font-family: $font;
         }
         .initial-text{
-            font-family: 'Orbitron', sans-serif;
+            font-family:$font;
             margin-top: 1%;
             font-size: 150%;
             text-align: center;
@@ -35,7 +35,7 @@ main{
                 background-color: black;
                 border-radius: 15px;
                 color:#5E9186;
-                font-family: 'Orbitron', sans-serif;
+                font-family: $font;
                 cursor: pointer;
             }
         }
@@ -43,7 +43,7 @@ main{
             font-size: 20px;
             width: 80%;
             margin: 1% 0px 1% 0px;
-            font-family: 'Orbitron', sans-serif;
+            font-family: $font;
         }
 
         #btn-compartilhar{
@@ -55,7 +55,7 @@ main{
             background-color: black;
             color: #E3B663;
             border-radius: 15px;
-            font-family: 'Orbitron', sans-serif;
+            font-family: $font;
             cursor: pointer;
 }
     }
