@@ -2,29 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     background-color: $footer-bg-color;
-    width: $footer-wid;
+    // width: $footer-wid;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-top: $footer-border-top;
 
-    h2{
-        font-size: $font-size-footer;
-        font-family: $font;
+    nav{
+        display: flex;
+        justify-content: center;
+
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            li{
+                a{
+                    color: $font-color;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 0px 20px 0px 20px;
+                    font-size: $font-size-footer;
+                    font-family: $font;
+                }
+            }
+        }
     }
 
-    a{
-        color: $font-color;
-        text-decoration: none;
-    }
 
     p{
         a{
             color: $footer-p-a-color;
+            text-decoration: none;
         }
         font-size: $footer-p;
         text-align: right;

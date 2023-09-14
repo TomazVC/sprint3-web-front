@@ -3,24 +3,39 @@
 
 header {
     background-color: $header-bg-color;
-    width: $header-wid;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     border-bottom: $header-border-bottom;
-
-    h2{
-        font-size: $font-size-header;
-        font-family: $font;
+    text-align: center;
+    img{
+        align-items: left;
+        justify-content: left;
+        max-width: 8%;
     }
 
-    a{
-        color: $font-color;
-        text-decoration: none;
+    nav{
+        display: flex;
+        justify-content: center;
+
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+
+            li{
+                a{
+                    color: $font-color;
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 0px 20px 5px 20px;
+                    font-size: $font-size-header;
+                    font-family: $font;
+                }
+            }
+        }
+
     }
 
-    .logo{
-        max-width: $logo-wid;
-        margin: $logo-margin;
-    }
+}
+
+@media screen {
+    
 }
