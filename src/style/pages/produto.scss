@@ -1,0 +1,7 @@
+.containerProduto{
+    display: grid;
+    // grid-template-columns: 10rem 10rem 10rem;
+    // text-align: center;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+}

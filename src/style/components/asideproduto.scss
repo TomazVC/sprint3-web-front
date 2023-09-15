@@ -1,0 +1,13 @@
+@import "../variaveis.scss";
+
+aside{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    img{
+        max-width: 20%;
+        margin: 0.5%;
+    }
+
+}
