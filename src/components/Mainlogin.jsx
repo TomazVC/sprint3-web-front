@@ -6,14 +6,14 @@ export default function Mainlogin(){
             <main>
                 <div>
                     <form>
-                        <h2>Fazer Login</h2>
-                        <input type="text" name="email" class="email" placeholder="email@email.com"/>
-                        <small class="textEmail"></small>
-                        <input type="password" name="senha" class="senha" placeholder="senha"/>
-                        <small class="textPassword"></small>
+                        <h2>Login</h2>
+                        <input type="text" name="email" className="email" placeholder="email@email.com"/>
+                        <small className="textEmail"></small>
+                        <input type="password" name="senha" className="senha" placeholder="senha"/>
+                        <small className="textPassword"></small>
                         <button type="submit">Login</button>
-                        <small class="textForm"></small>
-                        <small class="textSucess"></small>
+                        <small className="textForm"></small>
+                        <small className="textSucess"></small>
                     </form>
                 </div>
             </main>

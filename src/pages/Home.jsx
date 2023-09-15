@@ -8,7 +8,7 @@ import '../style/pages/home.scss'
 
 export default function Home(){
     return(
-        <div class='container'>
+        <div className='container'>
             <Cabecalho/>
             <Mainhome/>
             <Sectionhome/>
