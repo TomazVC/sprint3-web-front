@@ -8,15 +8,15 @@ export default function Mainlogin(){
             <main>
                 <div>
                     <form>
-                        <img src={AquaLogo} alt={AquaLogoAlt} class="logo"/>
+                        <img src={AquaLogo} alt={AquaLogoAlt} className="logo"/>
                         <h2>Login</h2>
-                        <input type="text" name="email" class="email" placeholder="email@email.com"/>
-                        <small class="textEmail"></small>
-                        <input type="password" name="senha" class="senha" placeholder="senha"/>
-                        <small class="textPassword"></small>
+                        <input type="text" name="email" className="email" placeholder="email@email.com"/>
+                        <small className="textEmail"></small>
+                        <input type="password" name="senha" className="senha" placeholder="senha"/>
+                        <small className="textPassword"></small>
                         <button type="submit">Login</button>
-                        <small class="textForm"></small>
-                        <small class="textSucess"></small>
+                        <small className="textForm"></small>
+                        <small className="textSucess"></small>
                     </form>
                 </div>
             </main>

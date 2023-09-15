@@ -33,7 +33,7 @@ export default function Rodape(){
     return(
         <>
             <footer>
-                <img src={SoftForge} alt={SoftForgeAlt} class="logo2"/>
+                <img src={SoftForge} alt={SoftForgeAlt} className="logo2"/>
                 <nav>
                     <ul>
                         <li><Link to={'/TrabalheAqui'} style={estiloLink("TrabalheAqui")}>Trabalhe aqui</Link></li>
@@ -43,7 +43,7 @@ export default function Rodape(){
                     </ul>
                 </nav>
                 <div>
-                    <p class="foo-text">
+                    <p className="foo-text">
                         <Link to={'/Construcao'}>
                             Compliance
                             <br/>
