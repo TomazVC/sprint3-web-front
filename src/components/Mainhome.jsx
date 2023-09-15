@@ -27,3 +27,5 @@ export default function Mainhome(){
         </>
     )
 }
+
+<label><input type="text" /></label>
