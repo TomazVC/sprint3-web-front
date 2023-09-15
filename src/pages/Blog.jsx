@@ -1,12 +1,13 @@
 import Cabecalho from "../components/Cabecalho";
 import Rodape from "../components/Rodape";
-import Mainlogin from "../components/Mainlogin";
+import Mainblog from "../components/Mainblog";
+import "../style/pages/blog.scss";
 
-export default function Login(){
+export default function Blog(){
     return(
-        <div className="container">
+        <div class="containerBlog">
             <Cabecalho/>
-            <Mainlogin/>
+            <Mainblog/>
             <Rodape/>
         </div>
     )

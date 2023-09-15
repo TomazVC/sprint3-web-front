@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Construcao from "./pages/Construcao";
+import Contato from "./pages/Contato";
+import Empresas from "./pages/Empresas";
+import Blog from "./pages/Blog";
 import Contratar from "./pages/Contratar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -15,8 +17,10 @@ export default function App(){
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home/>}/>
-                <Route exact path="/construcao" element={<Construcao/>}/>
+                <Route exact path="/contato" element={<Contato/>}/>
+                <Route exact path="/empresas" element={<Empresas/>}/>
                 <Route exact path="/contratar" element={<Contratar/>}/>
+                <Route exact path="/blog" element={<Blog/>}/>
                 <Route exact path="/login" element={<Login/>}/>
                 <Route exact path="/pelomundo" element={<PeloMundo/>}/>
                 <Route exact path="/produto" element={<Produto/>}/>

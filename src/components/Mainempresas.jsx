@@ -1,13 +1,13 @@
-import "../style/components/mainconstrucao.scss";
+import "../style/components/mainempresas.scss";
 
-export default function Mainconstrucao(){
+export default function Mainempresas(){
     return(
         <>
             <main>
                 <h2>Em Breve</h2>
 
-                <div className="contagem">
-                    <div className="relogio">
+                <div class="contagem">
+                    <div class="relogio">
                         00:00:00:00
                     </div>
                 </div>
