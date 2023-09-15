@@ -3,6 +3,7 @@ import ExemploHomemImg from "../img/exemplo_homem.webp";
 import Exemplo2TankImg from "../img/exemplo2tank.png";
 import VisaoCimaImg from "../img/visao_cima.png";
 
+
 export default function asidehome(){
     let ExemploHomemImgAlt = "ExemploHomemImg";
     let Exemplo2TankImgAlt = "Exemplo2TankImg";
