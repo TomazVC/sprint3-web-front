@@ -1,0 +1,24 @@
+@import "../_variaveis.scss";
+
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font;
+
+    h2{
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        padding: 0px 20px 5px 20px;
+        color:#5E9186;
+    }
+
+    .relogio{
+        font-size: 35px;
+        padding: 5px 20px 0px 20px;
+        color: #E3B663;
+    }
+}

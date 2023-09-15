@@ -1,6 +1,6 @@
-import "../style/components/mainconstrucao.scss";
+import "../style/components/mainempresas.scss";
 
-export default function Mainconstrucao(){
+export default function Mainempresas(){
     return(
         <>
             <main>

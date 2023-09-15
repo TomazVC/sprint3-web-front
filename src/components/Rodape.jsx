@@ -12,14 +12,14 @@ export default function Rodape(){
         if(location.pathname === "/TrabalheAqui"){
             setLinkAtivo("TrabalheAqui");
         }
-        else if(location.pathname === "/Construcao"){
-            setLinkAtivo("Construcao");
+        else if(location.pathname === "/Contato"){
+            setLinkAtivo("Contato");
         }
-        else if(location.pathname === "/Construcao"){
-            setLinkAtivo("Construcao2");
+        else if(location.pathname === "/Empresas"){
+            setLinkAtivo("Empresas");
         }
-        else if(location.pathname === "/Construcao"){
-            setLinkAtivo("Construcao3");
+        else if(location.pathname === "/Blog"){
+            setLinkAtivo("Blog");
         }
         else{
             setLinkAtivo("");
@@ -37,9 +37,9 @@ export default function Rodape(){
                 <nav>
                     <ul>
                         <li><Link to={'/TrabalheAqui'} style={estiloLink("TrabalheAqui")}>Trabalhe aqui</Link></li>
-                        <li><Link to={'/Construcao'} style={estiloLink("Construcao")}>Contato</Link></li>
-                        <li><Link to={'/Construcao'} style={estiloLink("Construcao2")}>Para Empresas</Link></li>
-                        <li><Link to={'/Construcao'} style={estiloLink("Construcao3")}>Blog</Link></li>
+                        <li><Link to={'/Contato'} style={estiloLink("Contato")}>Contato</Link></li>
+                        <li><Link to={'/Empresas'} style={estiloLink("Empresas")}>Para Empresas</Link></li>
+                        <li><Link to={'/Blog'} style={estiloLink("Blog")}>Blog</Link></li>
                     </ul>
                 </nav>
                 <div>
