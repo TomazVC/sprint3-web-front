@@ -12,14 +12,14 @@ export default function Mainhome(){
                 Junte-se a iniciativa capaz de acabar com isso!
                 </p>
                 <form name="increva-se">
-                <input type="text" id="nome" placeholder="Alexandre Carlos " required="required" name="nome" />
-                <p id="textName"></p>
-                <input type="" id="telefone" placeholder="(xx)xxxxx-xxxx" pattern="\(\d{2}\)\s*\d{5}-\d{4}" maxLength="15"/>
-                <p id="textFone"></p>
-                <input type="text" id="email" placeholder="nome@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
-                <p id="textEmail"></p>
+                <input type="text" placeholder="Alexandre Carlos " required="required" name="nome" />
+                <p></p>
+                <input type="tel" placeholder="(xx)xxxxx-xxxx" pattern="\(\d{2}\)\s*\d{5}-\d{4}" maxLength="15"/>
+                <p></p>
+                <input type="text" placeholder="nome@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                <p></p>
                 <textarea placeholder="Deixe suas dúvidas ou comentários"></textarea>
-                <button id="btn-enviar">Enviar</button>
+                <button>Enviar</button>
                 </form>
                 <button id="btn-compartilhar">Compartilhe nas redes sociais!</button>
             </div>

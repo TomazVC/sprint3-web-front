@@ -1,20 +1,21 @@
-
-export default function Maintrabalheaqui(){
+export default function Sectiontrabalheaqui(){
     return(
         <>
         <main>
             <div>
-                <h2>Envie seu currículo para a Aquatank</h2>
+                <form>
+                    {/* <label for="nome">Nome:</label> */}
+                    <input type="text" name="nome" required placeholder="nome"/>
+
+                    {/* <label for="email">Email:</label> */}
+                    <input type="email" name="email" required placeholder="email"/>
+
+                    {/* <label for="arquivo">Enviar currículo:</label> */}
+                    <input type="file" name="arquivo" required/>
+
+                    <input type="submit" value="Enviar" />
+                </form>
             </div>
-            <div>
-                <p>
-                Você está em busca de novas oportunidades profissionais? Venha fazer
-                parte da equipe da Aquatank! Se você é apaixonado por inovação e está
-                em busca de um ambiente dinâmico e desafiador, envie-nos o seu
-                currículo. Estamos ansiosos para conhecer o seu potencial. Junte-se a
-                nós na Aquatank e construa um futuro mais sustentável!
-                </p>
-            </div>    
         </main>
         </>
     )

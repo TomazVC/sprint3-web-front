@@ -8,8 +8,8 @@ export default function TrabalheAqui(){
     return(
         <div className="containerTrabalheAqui">
             <Cabecalho/>
-            <Maintrabalheaqui/>
             <Sectiontrabalheaqui/>
+            <Maintrabalheaqui/>
             <Rodape/>
         </div>
     )
