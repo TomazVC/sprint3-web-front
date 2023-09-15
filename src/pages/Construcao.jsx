@@ -5,7 +5,7 @@ import "../style/pages/construcao.scss";
 
 export default function Construcao(){
     return(
-        <div class="container">
+        <div class="container2">
             <Cabecalho/>
             <Mainconstrucao/>
             <Rodape/>
