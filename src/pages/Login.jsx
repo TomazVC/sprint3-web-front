@@ -5,7 +5,7 @@ import "../style/pages/Login.scss";
 
 export default function Login(){
     return(
-        <div class="container-Login">
+        <div className="container-Login">
             <Cabecalho/>
             <Mainlogin/>
             <Rodape/>

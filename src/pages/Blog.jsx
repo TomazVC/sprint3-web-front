@@ -5,7 +5,7 @@ import "../style/pages/blog.scss";
 
 export default function Blog(){
     return(
-        <div class="containerBlog">
+        <div className="containerBlog">
             <Cabecalho/>
             <Mainblog/>
             <Rodape/>

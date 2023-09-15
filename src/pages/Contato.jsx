@@ -5,7 +5,7 @@ import "../style/pages/contato.scss";
 
 export default function Contato(){
     return(
-        <div class="containerContato">
+        <div className="containerContato">
             <Cabecalho/>
             <Maincontato/>
             <Rodape/>

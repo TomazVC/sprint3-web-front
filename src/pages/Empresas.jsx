@@ -5,7 +5,7 @@ import "../style/pages/empresas.scss";
 
 export default function Empresas(){
     return(
-        <div class="containerEmpresas">
+        <div className="containerEmpresas">
             <Cabecalho/>
             <Mainempresas/>
             <Rodape/>
