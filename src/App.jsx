@@ -7,6 +7,7 @@ import NoPage from "./pages/NoPage";
 import PeloMundo from "./pages/PeloMundo";
 import Produto from "./pages/Produto";
 import TrabalheAqui from "./pages/TrabalheAqui";
+import "./style/pages/main.scss";
 
 export default function App(){
   return(

@@ -3,7 +3,7 @@ import "../style/components/sectionhome.scss";
 export default function SectionHome(){
     return(
     <>
-        <div id="div-secundaria">
+        <section>
             <h2 id="title2">O sistema AquaTank Sampa</h2>
             <div id="controle-detalhe">
                 <h2 class="detalhe">227 tanques instalados</h2>
@@ -12,7 +12,7 @@ export default function SectionHome(){
                 </h2>
                 <h2 class="detalhe">Diminuição dos casos de doenças respiratórias</h2>
             </div>
-        </div>
+        </section>
         
     </>
     )

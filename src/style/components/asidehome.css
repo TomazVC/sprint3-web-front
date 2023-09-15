@@ -1,0 +1,9 @@
+aside {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+aside img {
+  max-width: 20%;
+  margin: 0.5%;
+}/*# sourceMappingURL=asidehome.css.map */

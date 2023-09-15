@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  align-items: center;
+}
+main div {
+  text-align: center;
+  width: 100%;
+}
+main div #title {
+  font-size: 250%;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+main div .initial-text {
+  font-family: "Orbitron", sans-serif;
+  margin-top: 1%;
+  font-size: 150%;
+  text-align: center;
+}
+main div form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main div form input {
+  padding: 0.5%;
+}
+main div form button {
+  min-width: 40%;
+  padding: 1%;
+  font-size: 20px;
+  background-color: black;
+  border-radius: 15px;
+  color: #5E9186;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+}
+main div form input, main div textarea {
+  font-size: 20px;
+  width: 80%;
+  margin: 1% 0px 1% 0px;
+  font-family: "Orbitron", sans-serif;
+}
+main div #btn-compartilhar {
+  max-width: 30%;
+  padding: 1%;
+  margin: 2% 0% 1% 1%;
+  font-size: 20px;
+  background-color: black;
+  color: #E3B663;
+  border-radius: 15px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+}/*# sourceMappingURL=mainhome.css.map */

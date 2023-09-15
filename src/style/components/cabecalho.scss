@@ -1,13 +1,15 @@
-@import "../variaveis.scss";
+@import "../_variaveis.scss";
 
 header {
     background-color: $header-bg-color;
     border-bottom: $header-border-bottom;
     text-align: center;
+    // padding: 20px;
     img{
         align-items: left;
         justify-content: left;
         max-width: 8%;
+        margin-top: 1%;
     }
 
     nav{

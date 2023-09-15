@@ -1,0 +1,36 @@
+footer {
+  background-color: #101112;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 8px solid #6BF8D9;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer nav ul li a {
+  color: #5e9186;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+}
+footer p {
+  font-size: 18px;
+  text-align: right;
+}
+footer p a {
+  color: #E3B663;
+  text-decoration: none;
+}
+footer .logo2 {
+  max-width: 6%;
+  margin: 5px 10px;
+}/*# sourceMappingURL=rodape.css.map */
