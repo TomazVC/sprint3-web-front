@@ -18,6 +18,9 @@ export default function Cabecalho(){
     else if(location.pathname === "/PeloMundo"){
         setLinkAtivo("PeloMundo");
     }
+    else if(location.pathname === "/Login"){
+        setLinkAtivo("Login");
+    }
     else{
         setLinkAtivo("");
     }
@@ -25,6 +28,9 @@ export default function Cabecalho(){
 
     const estiloLink = (link) => ({
         color: link === linkAtivo ? "#6BF8D9" : "#5e9186",
+    });
+    const estiloLinkLogin = (link) => ({
+        color: link === linkAtivo ? "#FFCD0D" : "#E3B663",
     });
 
     return(
@@ -36,7 +42,7 @@ export default function Cabecalho(){
                         <li><Link to={"/Produto"} style={estiloLink("Produto")}>Produto</Link></li>
                         <li><Link to={"/Contratar"} style={estiloLink("Contratar")}>Como Contratar</Link></li>    
                         <li><Link to={"/PeloMundo"} style={estiloLink("PeloMundo")}>AquaT pelo mundo</Link></li>    
-                        <li><Link to={"/Login"} className="laranjinha">Login</Link></li>
+                        <li><Link to={"/Login"} style={estiloLinkLogin("Login")} className="laranjinha">Login</Link></li>
                     </ul>
                 </nav>
             </header>
