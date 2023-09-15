@@ -4,6 +4,8 @@ import Mainhome from '../components/Mainhome';
 import Sectionhome from '../components/Sectionhome';
 import Asidehome from "../components/Asidehome";
 import '../style/pages/home.scss'
+
+
 export default function Home(){
     return(
         <div class='container'>
