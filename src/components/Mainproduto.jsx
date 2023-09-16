@@ -1,3 +1,4 @@
+import "../style/components/Mainproduto.scss";
 
 export default function Mainproduto(){
 
@@ -7,7 +8,7 @@ export default function Mainproduto(){
                 <div id="faixa-matriz"></div>
                     <div id="div-inicial">
                         <div>
-                            <h2>Como o Aquatank funciona?</h2>
+                            <h2 id="mainprodutoh2">Como o Aquatank funciona?</h2>
                             <p>
                             A resposta proposta pela aquatank está na vida marinha, mais
                             especificamente nas algas e sua capacidade de filtrar o ar. Em

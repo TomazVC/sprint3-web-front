@@ -11,10 +11,8 @@ footer{
     nav{
         display: flex;
         justify-content: center;
-
         ul{
             display: flex;
-            justify-content: center;
             list-style: none;
             li{
                 a{
@@ -24,6 +22,10 @@ footer{
                     padding: 0px 20px 0px 20px;
                     font-size: $font-size-footer;
                     font-family: $font;
+                    @media screen and (max-width: 425px){
+                        font-size: small;
+                        padding: 0px 5px 0px 5px;
+                    }
                 }
             }
         }
@@ -34,6 +36,9 @@ footer{
         a{
             color: $footer-p-a-color;
             text-decoration: none;
+            @media screen and (max-width: 425px){
+                font-size: small;
+            }
         }
         font-size: $footer-p;
         font-family: $font;
@@ -43,5 +48,8 @@ footer{
     .logo2{
         max-width: $logo2-wid;
         // margin: $logo2-margin;
+        @media screen and (max-width: 1024px){
+            max-width: 10%;
+        }
     }
 }

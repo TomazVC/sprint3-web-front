@@ -10,7 +10,7 @@ export default function asidehome(){
     let VisaoCimaImgAlt = "VisaoCimaImg";
     return(
         <>
-            <aside>
+            <aside id="asidehomeimg">
                 <img src={ExemploHomemImg} alt={ExemploHomemImgAlt}/>
                 <img src={Exemplo2TankImg} alt={Exemplo2TankImgAlt}/>
                 <img src={VisaoCimaImg} alt={VisaoCimaImgAlt}/>

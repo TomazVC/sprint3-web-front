@@ -4,7 +4,7 @@ export default function Mainblog(){
     return(
         <>
             <main>
-                <h2>Em Breve</h2>
+                <h2 id="mainblogh2">Em Breve</h2>
 
                 <div className="contagem">
                     <div className="relogio">

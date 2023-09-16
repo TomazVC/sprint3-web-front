@@ -12,14 +12,18 @@ section{
             font-family: $font;
             color: $font-color;
             padding: 1%;
+            @media screen and (max-width: 425px){
+                font-size: 32px;
+            }
     }
     #controle-detalhe{
-        display: flex;
-        width: 100%;
-        // padding: 1% 1% 1% 1%;
+        // display: flex;
+        width: 50%;
         .detalhe{
             font-family: $font;
             display: flex;
+            text-align: center;
+            justify-content: center;
             align-items: center;
             background-color: black;
             color: $font-color;
@@ -28,6 +32,9 @@ section{
             border: black 2px;
             border-radius: 15px;
             margin: 1%;
+            @media screen and (max-width: 425px){
+                font-size: 18px;
+            }
         }
         
     }

@@ -1,7 +1,9 @@
+import "../style/components/sectiontrabalheaqui.scss"
+
 export default function Maintrabalheaqui(){
     return(
         <>
-        <main>
+        <main id="maintrabalheaquih2">
             <div>
                 <h2>Envie seu currículo para a Aquatank</h2>
             </div>

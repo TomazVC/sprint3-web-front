@@ -12,7 +12,7 @@ export default function asideproduto(){
 
     return(
         <>
-            <aside>
+            <aside id="asideprodutoimg">
                 <img src={Exemplotank} alt={ExemplotankAlt}/>
                 <img src={Reproducao} alt={ReproducaoAlt}/>
                 <img src={Exemplohomem} alt={ExemplohomemAlt}/>
