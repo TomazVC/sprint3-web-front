@@ -33,3 +33,11 @@ export function telValidation(tel) {
       }
       return true;
     }
+
+export function fileValidation(file) {
+  if (!file) {
+    alert('Por favor, insira um arquivo');
+    return false;
+  }
+  return true;
+}
