@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    .conteudo-contratar{
+        display: flex;
+        img{
+            max-width: 20%;
+        }
+        .texto{
+            margin-top: 2%;
+            text-align: center;
+          }
+    
+    }
+}
