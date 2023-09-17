@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import InputMask from 'react-input-mask';
 import '../style/components/mainhome.scss';
+import { nameValidation, emailValidation, telValidation } from '../validations/validations';
 
 export default function Mainhome() {
   // Usando estados
@@ -19,22 +20,15 @@ export default function Mainhome() {
 
   //  Validando formulário
   function validation() {
-    let re = /\S+@\S+\.\S+/;
-    if (name.length < 2) {
-      alert('Dados inválidos, nome precisa ter no máximo 2 caracteres');
-      return false;
+    const c1= nameValidation(name);
+    const c2 = telValidation(tel);
+    const c3 = emailValidation(email);
+    if(c1 === true && c2 === true && c3 === true) {
+        return true
     }
-    if (tel.length < 11) {
-      alert('Dados inválidos, formato: (11)11111-1111');
-      return false;
-    }
-    if (re.test(email) !== true) {
-      alert('Dados inválidos, formato: nome@mail.com');
-      return false;
-    }
-    return true;
+    return false
   }
-
+  
   //   Compartilhando nas redes sociais
 
   function handleShare() {
@@ -150,7 +144,7 @@ export default function Mainhome() {
             />
             <InputMask
               mask='(99)99999-9999'
-              maskChar='_'
+              maskChar=''
               placeholder='(00)00000-0000'
               onChange={(e) => setTel(e.target.value)}
             />
