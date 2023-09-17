@@ -1,0 +1,26 @@
+@import "../_variaveis.scss";
+
+main{
+  display: flex;
+    // width: 100%;
+    min-height: 32em;
+    align-items: center;
+        #esquerda{
+          align-self: center;
+          width: 45%;
+          // margin: 5%;
+
+        }
+        #direita{
+          align-self: center;
+          width: 45%;
+          height: 20%;
+          // margin: 5%;
+        }
+        .img{
+          align-self: center;
+          margin: 5%;
+          width: 95%;
+          max-height: 150px;
+        }
+}
